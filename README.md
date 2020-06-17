@@ -11,3 +11,6 @@ generatePretrainedMatrix.py   生成word2vec.bin, attn_embedding.npy
 generateEmbedding.py    生成word2idx, label2idx, word_embedding.npy, tfcr_embedding.npy
 
 train.py    主函数
+
+## 运行步骤
+dataProcess.py >> generatePretrainedMatrix.py >> generateEmbedding.py >> train.py
